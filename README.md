@@ -15,30 +15,35 @@ An AI-powered Cyber Threat Intelligence and URL analysis tool. Built as a practi
 - **Environment Management:** python-dotenv
 
 ## ⚙️ Setup & Installation
+1. **Clone this repository:**
+   ```bash
+   git clone [https://github.com/22314713/Phish-Guard.git](https://github.com/22314713/Phish-Guard.git)
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd Phish-Guard
+   ```
 
-1. Clone this repository:
-
-   git clone [https://github.com/22314713/Phish-Guard.git]
-   (https://github.com/YOUR_USERNAME/Phish-Guard.git)
-
-2. Navigate to the project directory:
-
-   cd Phish-Guard 
-
-3. Install the required dependencies:
-
+3. **Install the required dependencies:**
+   ```bash
    pip install -r requirements.txt
+   ```
 
-4. Create a .env file in the root directory and add your API keys:
+4. **Create a .env file in the root directory and add your API keys:**
+   ```bash
+   VT_API_KEY=your_virustotal_api_key_here
+   GEMINI_API_KEY=your_gemini_api_key_here
+   ```
 
-   VT_API_KEY = your_virustotal_api_key_here
-   GEMINI_API_KEY = your_gemini_api_key_here 
-
-5. Run the application: 
-
+5. **Run the application:** 
+    ```bash
    python app.py
+    ```
 
-6. Open your browser and go to http://127.0.0.1:5001.   
+6. **Open your browser and go to**
+    ```bash
+    http://127.0.0.1:5001
+    ``` 
 
 **⚠️ Disclaimer**
 This tool is created for educational and research purposes only. Do not use the API for scanning highly sensitive or confidential internal URLs, as third-party services (VirusTotal/Google) process the data.
