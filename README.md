@@ -18,29 +18,25 @@ An AI-powered Cyber Threat Intelligence and URL analysis tool. Built as a practi
 1. **Clone this repository:**
    ```bash
    git clone [https://github.com/22314713/Phish-Guard.git](https://github.com/22314713/Phish-Guard.git)
-   ```
-2. **Navigate to the project directory:**
-   ```bash
    cd Phish-Guard
    ```
-
-3. **Install the required dependencies:**
+2. **Install the required dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Create a .env file in the root directory and add your API keys:**
+3. **Create a .env file in the root directory and add your API keys:**
    ```bash
    VT_API_KEY=your_virustotal_api_key_here
    GEMINI_API_KEY=your_gemini_api_key_here
    ```
 
-5. **Run the application:** 
+4. **Run the application:** 
     ```bash
    python app.py
     ```
 
-6. **Open your browser and go to**
+5. **Open your browser and go to**
     ```bash
     http://127.0.0.1:5001
     ``` 
