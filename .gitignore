@@ -1,0 +1,19 @@
+# Environment Variables (CRITICAL - DO NOT TRACK!)
+.env
+
+# Python Virtual Environment
+venv/
+env/
+.venv/
+
+# Python Cache Files
+__pycache__/
+*.pyc
+*.pyo
+
+# Local Data / Scan History
+scans.json
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
